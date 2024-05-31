@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u>Weather App</u></h1>
+    <br><br>
+    <form id="location-form">
+        <input type="text" id="location-input" placeholder ="Enter a location" required>
+        <br><br><br><br>
+        <div class="button-container">
+            <button type="submit">Get Weather Report</button>
+            <button id="current-location-btn">Use Current Location</button>
+        </div>
+    </form>
+    <div id="weather-result">
+        <h2 id="location-name"></h2>
+        <p id="weather-description"></p>
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="wind-speed"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>&copy;Anusri S. 2024. All rights reserved.</footer>
+</html>

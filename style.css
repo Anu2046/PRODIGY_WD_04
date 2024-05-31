@@ -1,0 +1,105 @@
+body {
+    background-image: url('night_default1.jpg');
+    background-size: 1535px 759px;
+    background-repeat: no-repeat;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: Lucida calligraphy;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    margin: 20px;
+}
+
+footer {
+    color: black; 
+    text-align: center; 
+    font-size: 15px;
+    font-family: Segoe;
+    background-color: lightgrey;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px; 
+}
+
+input::placeholder {
+    color: white; 
+    font-family: Georgia;
+    font-weight: bold;
+    opacity: 1; 
+}
+
+#location-form, #current-location-btn {
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    border-style: unset;
+}
+
+#location-form input {
+    padding: 30px 35px;
+    font-size: 40px;
+    color: white;
+    border-style: unset;
+    border-radius: 70px 30px;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+#location-form button, #current-location-btn {
+    background-color:black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 25px;
+    font-family: Georgia;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    border-style: unset;
+    border-radius: 50px;
+    box-shadow: 0 4px black;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    outline: none;
+}
+
+#location-form button:hover, #current-location-btn:hover {
+    background-color:slategray;
+}
+
+#weather-result {
+    display: none;
+    font-family: Century Schoolbook;
+    font-size: 30px;
+    color: white;
+}
+
+#weather-result p {
+    margin: 5px 0;
+}
+
+#weather-description, #temperature, #humidity, #wind-speed{
+color:honeydew;
+font-weight: bold;
+}
+   
